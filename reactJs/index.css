@@ -1,0 +1,150 @@
+.navbar-container {
+  height: 60px;
+  width: 90%;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding-left: 20px;
+  box-shadow: 1px 1px 1px 1px #cccccc;
+}
+.heading {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.input-and-icon-container {
+  background-color: white;
+
+  border: 1px solid #cccccc;
+  display: flex;
+  text-align: center;
+  padding-left: 20px;
+  background-color: #cccccc;
+  width: 400px;
+  height: 50px;
+}
+.input {
+  border-style: none;
+  padding-left: 10px;
+  background-color: transparent;
+}
+.search {
+  margin-top: 17px;
+}
+.img-and-cart-container {
+  display: flex;
+  background-color: green;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 8px;
+  height: 40px;
+  width: 80px;
+  padding: 5px;
+  margin-right: 20px;
+}
+.abhi {
+  color: white;
+  border-style: none;
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+  padding-right: 4px;
+}
+
+.login {
+  font-size: 20px;
+  font-family: "Roboto";
+  padding-top: 20px;
+}
+.my-cart-heading {
+  font-size: 12px;
+  font-family: "Roboto";
+  margin-top: 6px;
+  color: white;
+  font-weight: "bold";
+}
+
+.paan-corner-image {
+  max-width: 93vw;
+  min-height: 20vh;
+  margin-top: 10px;
+}
+
+.images-container {
+  margin-left: 20px;
+  display: flex;
+  overflow: auto;
+  margin-top: 20px;
+  max-width: 90vw;
+  justify-content: space-around;
+}
+
+.image {
+  max-width: 300px;
+  min-height: 60px;
+  padding-left: 20px;
+}
+.cart-items-container {
+  /* margin-left: 20px; */
+  margin-top: 20px;
+  border: 2px solid red;
+  justify-content: space-between;
+  max-width: 90vw;
+}
+.cart-image {
+  min-width: 110px;
+  min-height: 120px;
+  color: white;
+  border-style: none;
+  height: 20px;
+  width: 20px;
+}
+
+.dairy-and-bread-container {
+  margin-left: 20px;
+  display: flex;
+  overflow: auto;
+  overflow-x: scroll;
+  height: 300px;
+  max-width: 90vw;
+}
+.image-container {
+  height: 270px;
+  width: 200px;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 10px;
+  margin-right: 20px;
+}
+.money-and-button-container {
+  display: flex;
+}
+.mother-heading {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.button2 {
+  height: 30px;
+  width: 50px;
+  background-color: #d7f7df;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 13px;
+  font-size: 10px;
+  font-weight: bold;
+  border: 1px solid green;
+}
+.amount {
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.dairy-heading {
+  margin-left: 20px;
+}
